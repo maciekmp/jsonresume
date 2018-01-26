@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "Maciej Płusa",
+    "label": "Programmer",
+    "picture": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19905285_10203674002168122_1630096878171382330_n.jpg?oh=e28bde35277d4599f3070af4ca2c3250&oe=5ADE59C9",
+    "email": "maciekmp@gmail.com",
+    "phone": "881 500 058",
+    "website": "http://maciejplusa.com/",
+    "summary": "Od najmłodszych lat jestem pasjonatem technologii, programuję komercyjnie od 8 lat. Czerpię przyjemność z efektywnej pracy przy aplikacjach internetowych. Wykorzystuję najnowszą technologię i standardy. W wolnych chwilach jężdżę autem hybrydowym. Skill set: architektura aplikacji, react, html5, javascript, less",
+    "location": {
+      "city": "Szczecin",
+      "countryCode": "PL"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "maciekmp",
+        "url": "https://github.com/"
+      },
+      {
+        "network": "Facebook",
+        "username": "maciekmp",
+        "url": "https://fb.me/maciekmp"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Infoshare Academy",
+      "position": "Trener merytoryczny i opiekun kursu",
+      "website": "http://infoshareacademy.com/",
+      "startDate": "2017-12-01",
+      "summary": "Jedna z największych firm organizująca szkolenia w Szczecina. Kursy z różnych dziedzin skupiają się wokół zajęć praktycznych.",
+      "highlights": [
+        "Praca jako ekspert merytoryczny przy wybranych tematach z kursu dla frontend developerów.",
+        "Przygotowywanie prezentacji i ćwiczeń na prowadzone zajęcia.",
+        "Opieka nad całym kursem: organizacja pracy, weryfikacja zadań, rola projekt menadżera i tech leada."
+      ]
+    },
+    {
+      "company": "Tidio",
+      "position": "Senior Software Developer / Fullstack",
+      "website": "https://www.tidiochat.com/",
+      "startDate": "2013",
+      "endDate": "2017",
+      "summary": "Tidio Chat jest rozwiązaniem bazującym na platformie live chat do komunikacji z klientami. Innowacyjne podejście pozwoliło na zajęcie wysokiej pozycji na rynku komunikatorów tego typu.",
+      "highlights": [
+        "Praca na każdym poziomie kluczowych elementów podczas tworzenia nowego projektu.",
+        "Budowa od podstaw nowej wersji panelu dla operatorów przy wykorzystaniu nowych technologii.",
+        "Praca przy widgecie ładowanym na setkach tysięcy stron. Wykorzystanie nowej architektury i optymalizacji na wszelkie dostępne sposoby.",
+        "Budowa i rozwój nowych funkcji."
+      ]
+    },
+    {
+      "company": "Abee",
+      "position": "Middle Software Developer",
+      "startDate": "2012-01",
+      "endDate": "2012-12",
+      "summary": "Platforma budowy stron w oparciu o silnik WordPress.",
+      "highlights": [
+        "Wdrażanie nowych stron na platformie WordPress.",
+        "Budowa wtyczek w oparciu o dobre praktyki z WordPress API.",
+        "Stworzenie systemu generującego kopie kolejnych stron z wszystkimi elementami (baza danych, pliki, dane).",
+        "Stworzenie nowego interfejsu z prostą obsługą strony w postaci wtyczki."
+      ]
+    },
+    {
+      "company": "ii4b",
+      "position": "Web Software Developer",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Innowacyjna firma wdrażająca rozwiązania oparte o big data i aplikacje facebooka.",
+      "highlights": [
+        "Praca nad koncepcją nowych produktów i aplikacji wytwarzanych przez firmę.",
+        "Stworzenie nowych stron związanych z identyfikacją firmy.",
+        "Budowa nowych aplikacji na platformie Facebooka.",
+        "Współpraca przy prototypie wykorzystującym technologię Kinect."
+      ]
+    },
+    {
+      "company": "nTeam",
+      "position": "Middle Software Developer",
+      "website": "http://www.nteam.pl/",
+      "startDate": "2010",
+      "endDate": "2011",
+      "summary": "Firma produkująca i rozwijająca strony dla biur nieruchomości z wykorzystanie autorskiego systemu CMS współpracującego z największymi systemami na rynku do przechowywania ofert nieruchomości.",
+      "highlights": [
+        "Budowa nowych stron dla biur nieruchomości z wykorzystaniem autorskiego CMS.",
+        "Rozbudowa istniejących stron o nowe moduły i wymagania.",
+        "Tworzenie nowych modułów w celu sprostania oczekiwaniom klientów."
+      ]
+    },
+    {
+      "company": "FitPlus",
+      "position": "Junior Software Developer",
+      "startDate": "2010",
+      "endDate": "2010",
+      "summary": "Startup społecznościowy agregujący informacje o wykonanych ćwiczeniach z funkcją śledzenia planów treningowych.",
+      "highlights": [
+        "Stworzenie od podstaw serwisu społecznościowego.",
+        "Budowa całego interfejsu złożonego z wielu ekranów.",
+        "Testy UX na potencjalnych użytkownikach."
+      ]
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "Zachodniopomorski Uniwersytet Technologiczny",
+      "area": "Informatyka",
+      "studyType": "Inżynierskie",
+      "startDate": "2008",
+      "endDate": "2013",
+      "courses": [
+        "Programowanie w C",
+        "Programowanie w C++",
+        "Grafika komputerowa",
+        "Przetwarzanie obrazu"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dige Ninja Contest",
+      "date": "2013",
+      "awarder": "Dige",
+      "summary": "Najlepsza aplikacja do wizualizacji grafów z wykorzystaniem biblioteki d3.js."
+    },
+    {
+      "title": "Najlepsza gra komputerowa",
+      "date": "2010",
+      "awarder": "ZUT - Katedra Multimediów",
+      "summary": "Drugie miejsca za najlepszą grę komputerową. Gra oparta na rozgrywce turowej z wykorzystaniem modeli czołgów 3d."
+    },
+    {
+      "title": "Startup Weekend Warsaw",
+      "date": "2010",
+      "awarder": "Startup Weekend",
+      "summary": "Drugie miejsca za projekt wykorzystujący technologię Kinect w reklamie publicznej."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Master",
+      "keywords": [
+        "Architektura aplikacji",
+        "React",
+        "HTML5",
+        "CSS",
+        "Less",
+        "JavaScript",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Regular",
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Web Performance",
+      "level": "Senior",
+      "keywords": [
+        "Website Speed",
+        "SEO",
+        "CDN"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Swobodna komunikacja, czytanie i pisanie dokumentacji."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Prywatnie",
+      "keywords": [
+        "Nowe technologie",
+        "Efektywność i optymalizacja pracy",
+        "Xbox",
+        "Barmaństwo"
+      ]
+    }
+  ]
+}
