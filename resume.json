@@ -36,15 +36,31 @@
   },
   "work": [
     {
+      "company": "Intive SA",
+      "position": "Senior Software Developer",
+      "website": "https://www.intive.com/",
+      "startDate": "2018-03-01",
+      "endDate": "2018-09-07",
+      "summary": "A global company employing over 1,500 employees. Cooperating with the world's largest brands.",
+      "highlights": [
+        "Work on multi-platform projects for the Discovery Channel.",
+        "The development of applications based on the latest technologies.",
+        "Cooperation with the London branch when introducing new functions.",
+        "Optimization of the platform and its architecture."
+      ]
+    },
+    {
       "company": "Infoshare Academy",
       "position": "Content coach and tutor",
-      "website": "http://infoshareacademy.com/",
+      "website": "https://infoshareacademy.com/",
       "startDate": "2017-12-01",
+      "endDate": "2018-07-15",
       "summary": "One of the largest companies organizing training in Szczecin. Courses in various fields focus around practical classes.",
       "highlights": [
-        "Work as a substantive expert on selected topics from the course for frontend developers.",
+        "Work as a substantive expert on selected topics from the course.",
         "Preparing presentations and exercises for classes.",
-        "Taking care of the whole course: work organization, task verification, role of manager's project and technical lead."
+        "Care of the course. Work organization, task verification.",
+        "Project manager and tech lead."
       ]
     },
     {
@@ -200,7 +216,7 @@
         "Google Chrome Developer Tools",
         "Vagrant",
         "Go",
-        "Konsola Linux",
+        "Linux console",
         "Apache/Nginx"
       ]
     }
