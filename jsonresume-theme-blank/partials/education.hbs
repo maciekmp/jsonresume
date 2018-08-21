@@ -1,0 +1,23 @@
+{{#resume}}
+<table>
+	<thead>
+		<tr>
+			<td colspan="2">
+				EDUCATION
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each education}}
+		<tr>
+			<td>
+				{{startDate}} - {{endDate}}
+			</td>
+			<td>
+				{{institution}}, {{area}}
+			</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+{{/resume}}

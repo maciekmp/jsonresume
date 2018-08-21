@@ -1,0 +1,25 @@
+{{#resume}}
+<table>
+	<thead>
+		<tr>
+			<td colspan="2">
+				FOREIGN LANGUAGES (level of knowledge: elementary/good/very good/fluent)
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each languages}}
+		<tr>
+			<td>
+				<strong>
+					{{language}}
+				</strong>
+			</td>
+			<td>
+				{{fluency}}
+			</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+{{/resume}}

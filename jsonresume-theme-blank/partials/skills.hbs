@@ -1,0 +1,26 @@
+{{#resume}}
+<table>
+	<thead>
+		<tr>
+			<td>
+				FIELD
+			</td>
+			<td>
+				SKILLS (in details)
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each skills}}
+		<tr>
+			<td>{{name}}</td>
+			<td>
+				{{#each keywords}}
+					{{this}},
+				{{/each}}
+			</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+{{/resume}}
