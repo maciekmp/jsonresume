@@ -36,15 +36,31 @@
   },
   "work": [
     {
+      "company": "Intive S.A.",
+      "position": "Senior Software Developer",
+      "website": "https://www.intive.com/",
+      "startDate": "2018-03-01",
+      "endDate": "2018-09-07",
+      "summary": "Globalna firma zatrudniająca ponad 1500 pracowników. Współpracująca z największymi światowymi markami.",
+      "highlights": [
+        "Praca przy projektach wielu platform dla Discovery Channel.",
+        "Rozwój aplikacji opartych na najnowszych technologiach.",
+        "Współpraca z oddziałem w Londynie przy wprowadzaniu nowych funkcji.",
+        "Optymalizacja platformy i jej architektury."
+      ]
+    },
+    {
       "company": "Infoshare Academy",
       "position": "Trener merytoryczny i opiekun kursu",
-      "website": "http://infoshareacademy.com/",
+      "website": "https://infoshareacademy.com/",
       "startDate": "2017-12-01",
+      "endDate": "2018-07-15",
       "summary": "Jedna z największych firm organizująca szkolenia w Szczecina. Kursy z różnych dziedzin skupiają się wokół zajęć praktycznych.",
       "highlights": [
-        "Praca jako ekspert merytoryczny przy wybranych tematach z kursu dla frontend developerów.",
+        "Praca jako ekspert merytoryczny przy wybranych tematach z kursu.",
         "Przygotowywanie prezentacji i ćwiczeń na prowadzone zajęcia.",
-        "Opieka nad całym kursem: organizacja pracy, weryfikacja zadań, rola projekt menadżera i tech leada."
+        "Opieka nad kursem. Organizacja pracy, weryfikacja zadań.",
+        "Projekt menadżer i tech lead."
       ]
     },
     {
