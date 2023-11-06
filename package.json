@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maciekmp/jsonresume.git",
+  "author": "<maciekmp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "translate-json-object": "^2.3.0"
+  }
+}

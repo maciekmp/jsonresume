@@ -1,0 +1,972 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+		<title>Maciej Płusa's Resume</title>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<style>
+			body, html {
+  padding-top:2.5em;
+  margin:0;
+  background-color:#fafafa;
+  font-size: 13pt;
+  font-family: "Open Sans";
+}
+
+h2{
+  font-weight: normal;
+  margin: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+h3{
+  font-weight:300;
+  font-size:1em;
+  margin: 0em;
+}
+
+.note {
+  display:block;
+  position: absolute;
+  top:10px;
+  left:10px;
+
+  font-size: 0.6em;
+}
+
+.summary p{
+  font-size:0.7em;
+  font-weight:400;
+
+  color: #424242;
+
+  margin-left:2em;
+}
+
+.new {
+  background-color: #81C784;
+
+  border: 1px solid #757575;
+  padding: 1px;
+  border-radius: 4px;
+}
+
+/* Header */
+
+header {
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Merriweather";
+}
+
+.header-content {
+  display: inline-block;
+}
+
+.pic {
+  margin: 0 auto;
+  margin-top:-3em;
+
+  border-radius:10em;
+  height:0em;
+  width:auto;
+
+  border: 2px solid #dddddd;
+  cursor:pointer;
+
+  transition: height .6s, margin-top .6s, border 0.3s;
+}
+
+.pic.loaded {
+  height: 6em;
+}
+
+
+@keyframes intro {
+  from {
+    height:0em;
+  }
+
+  to {
+    height: 6em;
+  }
+}
+
+.pic:hover, .pic:active{
+  height: 14em;
+  margin-top: -5em;
+  border: 4px solid #dddddd;
+}
+
+header p {
+  text-align:center;
+
+  margin:0;
+
+  color: #212121;
+}
+
+.first-name {
+   font-size: 1.05em;
+}
+
+.subtitle {
+  font-family: "Merriweather";
+  font-size:0.7em;
+  font-weight:500;
+  color: #424242;
+}
+
+/* Information */
+
+.paper {
+  margin: 0 auto;
+  margin-bottom:1em;
+
+  background-color:white;
+  width:60%;
+
+  padding:0.5em 0 0.5em 0;
+
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+  border-radius:3px;
+}
+
+/* Content Part */
+
+.content-wrapper {
+  padding-right:7.25%;
+}
+
+.content {
+  display:table;
+  width:100%;
+
+  padding-top:1.5em;
+
+  /*border-top: 1px solid #eeeeee;*/
+}
+
+
+.work-listing .first-listing{
+  margin-top: 1.8em;
+}
+
+.content:last-child {
+  margin-bottom: 2em;
+}
+
+body > div > article > div > section:last-child {
+  padding-bottom:1.5em;
+}
+
+.row {
+    display:table-row;
+}
+
+.row div {
+    display:table-cell;
+}
+
+.content-cat {
+  text-align:center;
+  vertical-align:middle;
+  font-variant:small-caps;
+
+  letter-spacing: 1px;
+
+  color: #212121;
+
+  font-family: "Merriweather";
+
+  padding-left:6.66%;
+  width:30%;
+}
+
+.content-cat p {
+  font-size:0.55em;
+  font-weight:600;
+
+  margin-bottom:0;
+}
+
+.content-text {
+  border-left:1px solid #dddddd;
+  transition: border 0.66s ease-in;
+}
+
+.big-text {
+  vertical-align:top;
+}
+
+.content-text ul {
+  padding:0;
+  margin:0;
+  margin-top:0.15em;
+
+  width:85%;
+  margin-left:1.5em;
+}
+
+.content-text ul:last-child {
+  margin-bottom:0.5em;
+}
+
+.content-text ul li {
+  font-size:0.7em;
+
+  display:inline-block;
+
+}
+
+.content-text ul li:first-child {
+  width:35%;
+
+  color: #424242;
+
+  font-weight:600;
+}
+
+.content-text ul li a:hover {
+  color:#4fc3f7;
+}
+
+.work-listing p {
+  font-size:0.7em;
+
+  color: #424242;
+
+  margin-left:2em;
+  margin-top:0.45em;
+  margin-bottom: 0.45em;
+}
+
+div.content-text.work-listing.education-listing > p:nth-child(2) {
+  margin-top:0.25em;
+}
+
+.work-listing .highlight {
+  font-size:0.7em;
+  font-weight:400;
+
+  color: #424242;
+
+  margin-left:3.25em;
+  padding-left:0.5em;
+
+  border-left:1px solid #dddddd;
+}
+
+.education-listing > .heading {
+  font-weight:600;
+
+  margin-top:0.75em;
+  margin-left:2em;
+}
+
+.education-listing > .highlight {
+  margin-left:3.25em;
+}
+
+.highlight {
+  transition: border .33s ease-in;
+}
+
+.profiles-print{
+  display: none;
+}
+
+.profiles-listing ul li, .profiles-listing ul li:first-child {
+  width:24%;
+  font-weight: normal;
+}
+
+.work-content, .education-content {
+  padding-top: .75em;
+}
+
+div.content-text.skills-listing > p {
+  font-size:0.7em;
+  font-weight:400;
+
+  margin-left: 2em;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+.no-nl{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.fa{
+  color: #000;
+}
+
+.network{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.7em;
+}
+
+@media(max-width:1400px) {
+  .paper {
+    width:80%;
+  }
+
+  .content-cat{
+    padding-left:2%;
+  }
+
+  .content-wrapper{
+    padding-right: 2%;
+  }
+}
+
+		</style>
+
+		<style media="screen">
+			@media(max-width:795px) {
+  .paper {
+    width:96%;
+  }
+
+  .pic{
+    cursor: auto;
+
+  }
+
+  .content-cat{
+    padding-left:1%;
+  }
+
+  .content-wrapper{
+    padding-right: 1%;
+  }
+
+  .profiles-listing ul li, .profiles-listing ul li:first-child{
+    width: 49%;
+  }
+
+  .small-fullwidth-row{
+    display: block;
+  }
+
+  .small-fullwidth-row div{
+    display: block;
+    width:100%;
+  }
+
+  .small-fullwidth-row .content-text{
+    border-left: 2px solid #dddddd;
+  }
+
+  .small-center{
+    text-align: center;
+  }
+
+  .work-listing .first-listing{
+    margin-top: 0.45em;
+  }
+}
+
+		</style>
+
+		<style media="print">
+			
+body, html {
+  background-color: white;
+  padding-top: 1.5em;
+  font-size:12pt;
+  font-family: "Merriweather";
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+h2{
+  margin-top:0em;
+}
+
+.paper {
+  width:100%;
+  border: 0;
+
+  padding-top: 0;
+}
+
+header p {
+  font-size: 1.3em;
+}
+
+.subtitle {
+  font-size: 0.7em;
+}
+
+.header-pic {
+  float:left;
+}
+
+.pic{
+    height:4.2em;
+    width:4.2em;
+}
+
+.pic.loaded {
+  height: 4.2em;
+}
+
+.profiles {
+  display:none;
+}
+
+.profiles-print{
+  display: table;
+}
+
+.content {
+  page-break-inside:avoid;
+  page-break-after:auto;
+}
+
+.header-text {
+  float:left;
+  margin-top: -1.6em;
+}
+
+.content-wrapper > .content:first-child {
+  padding-top: 2em;
+}
+
+.content:last-child {
+  padding-bottom: 0;
+}
+
+.content-cat {
+  width:25%;
+  color:black;
+}
+
+.content-cat p {
+  font-size:0.5em;
+  font-weight: 600;
+}
+
+header p, .content-text, .work-listing p, .content-text ul li:first-child, .work-listing .highlight, .content-text.skills-listing > ul > li > .highlight {
+  color:black;
+}
+
+.content-text.skills-listing > ul > li span, .subtitle {
+  color:#212121;
+}
+
+.content-text ul:last-child {
+  margin-bottom: 0.25em;
+}
+
+.content-text ul li:first-child {
+  width:50%;
+}
+
+.profiles-listing ul li:first-child {
+  width:32%;
+}
+
+div.content-text.skills-listing > ul > li {
+  width:33%;
+}
+
+.work-listing p {
+  margin-bottom: 0.1em;
+}
+
+div.content-text.skills-listing > ul > li > p {
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+}
+
+div.content-text.skills-listing > ul > li {
+  padding-left: 1.5em;
+}
+
+div.content-text.skills-listing > ul > li:first-child {
+  padding-left: 2em;
+}
+
+.note {
+  display:none;
+}
+
+.content-text:hover {
+  border-left:1px solid #eeeeee;
+}
+
+.content-text ul li a:hover {
+  color:#4fc3f7;
+}
+
+.summary p{
+  color: black;
+}
+
+.highlight:hover, .content-text.skills-listing > ul > li > .highlight:hover {
+  border-left:1px solid #eeeeee;
+}
+
+.big-text {
+  padding-top: 0;
+}
+
+		</style>
+	</head>
+	<body>
+		<div class="resume-wrapper">
+		  <article class="paper">
+			    <header>
+			      <div class="header-content">
+			        <div class="header-pic">
+			          <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19905285_10203674002168122_1630096878171382330_n.jpg?oh&#x3D;e28bde35277d4599f3070af4ca2c3250&amp;oe&#x3D;5ADE59C9" class="pic" alt="Maciej Płusa" onload="var pic = this; setTimeout(function(){pic.className+=' loaded';},100);"/>
+			        </div>
+			        <div class="header-text">
+			          <h2>Maciej Płusa</h2>
+			          <p class="subtitle">Programmer</p>
+			        </div>
+			      </div>
+			    </header>
+			    <div class="content-wrapper">
+			      <!-- CONTACT -->
+			      <section class="content">
+			        <div class="row">
+			          <div class="content-cat">
+			           <h3>Contact</h3>
+			          </div>
+			          <div class="content-text">
+				            <ul>
+				              <li>Email</li>
+				              <li><a href="mailto:maciekmp@gmail.com">maciekmp@gmail.com</a></li>
+				            </ul>
+
+				            <ul>
+				              <li>Phone</li>
+				              <li>881 500 058</li>
+				            </ul>
+
+										<ul>
+											<li>Website</li>
+											<li><a href="http://maciejplusa.com/">http://maciejplusa.com/</a></li>
+										</ul>
+			          </div>
+			        </div>
+			      </section>
+
+			      <!-- LOCATION -->
+					      <section class="content">
+					        <div class="row">
+					          <div class="content-cat">
+					           <h3>Location</h3>
+					          </div>
+					          <div class="content-text">
+
+
+						            <ul>
+						              <li>Country</li>
+						              <li>Poland</li>
+						            </ul>
+
+						            <ul>
+						              <li>City</li>
+						              <li>Szczecin</li>
+						            </ul>
+
+
+					          </div>
+					        </div>
+					      </section>
+
+
+						<!-- LANGUAGE -->
+			      <section class="content">
+			        <div class="row">
+			          <div class="content-cat">
+			           <h3>Languages</h3>
+			          </div>
+			          <div class="content-text">
+
+				            <ul>
+
+				              	<li>English</li>
+
+				              <li>Smooth communication, reading and writing documentation.</li>
+
+				            </ul>
+
+			          </div>
+			        </div>
+			      </section>
+
+			      <!-- PROFILES for website-->
+				      <section class="content profiles">
+				        <div class="row">
+				          <div class="content-cat">
+				           <h3>Profiles</h3>
+				          </div>
+				          <div class="content-text profiles-listing">
+				            <ul>
+					              	<li>
+					              	<a href="https://github.com/" target="_blank">
+														<i class="fa fa-2x fa-github-square"></i>
+							            	<span class="network">GitHub</span>
+													</a>
+							            </li>
+					              	<li>
+					              	<a href="https://fb.me/maciekmp" target="_blank">
+														<i class="fa fa-2x fa-facebook-square"></i>
+							            	<span class="network">Facebook</span>
+													</a>
+							            </li>
+					              	<li>
+					              	<a href="www.linkedin.com/in/maciejplusa" target="_blank">
+														<i class="fa fa-2x fa-linkedin-square"></i>
+							            	<span class="network">LinkedIn</span>
+													</a>
+							            </li>
+				            </ul>
+				          </div>
+				        </div>
+				      </section>
+						<!-- PROFILES for print -->
+							<section class="content profiles-print">
+								<div class="row">
+									<div class="content-cat">
+									 <h3>Profiles</h3>
+									</div>
+									<div class="content-text">
+											<ul>
+												<li>GitHub</li>
+												<li><a href="https://github.com/">github.com/</a></li>
+											</ul>
+											<ul>
+												<li>Facebook</li>
+												<li><a href="https://fb.me/maciekmp">fb.me/maciekmp</a></li>
+											</ul>
+											<ul>
+												<li>LinkedIn</li>
+												<li><a href="www.linkedin.com/in/maciejplusa">linkedin.com/in/maciejplusa</a></li>
+											</ul>
+									</div>
+								</div>
+							</section>
+
+							<section class="content summary">
+								<div class="row small-fullwidth-row">
+									<div class="content-cat">
+									 <h3>About Me</h3>
+									</div>
+									<div class="content-text work-content">
+										<p>
+											From an early age I am passionate about technology, I have been commercially programming for 8 years. I derive pleasure from effective work on internet applications. I use the latest technology and standards. In my spare time I am driving a hybrid car. Skill set: application architecture, react, html5, javascript, less
+										</p>
+									</div>
+								</div>
+							</section>
+
+								<section class="content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+											<h3>Work	Experience</h3>
+
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center first-listing">
+													<strong>Content coach and tutor</strong> at <strong><a href="http://infoshareacademy.com/" class="no-nl">Infoshare Academy</a></strong>
+											</p>
+
+											<p>One of the largest companies organizing training in Szczecin. Courses in various fields focus around practical classes.</p>
+
+												<p class="highlight">Work as a substantive expert on selected topics from the course for frontend developers.</p>
+												<p class="highlight">Preparing presentations and exercises for classes.</p>
+												<p class="highlight">Taking care of the whole course: work organization, task verification, role of manager&#x27;s project and technical lead.</p>
+
+
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2013</span> till <span class="no-nl">2017</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
+													<strong>Senior Software Developer / Fullstack</strong> at <strong><a href="https://www.tidiochat.com/" class="no-nl">Tidio</a></strong>
+											</p>
+
+											<p>Tidio Chat is a solution based on the live chat platform for communication with clients. The innovative approach allowed to occupy a high position on the market of this type of messengers.</p>
+
+												<p class="highlight">Work on each level of key elements when creating a new project.</p>
+												<p class="highlight">Building from scratch a new version of the panel for operators using new technologies.</p>
+												<p class="highlight">Working with a widget loaded on hundreds of thousands of pages. The use of new architecture and optimization in all available ways.</p>
+												<p class="highlight">Construction and development of new functions.</p>
+
+
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2012-01</span> till <span class="no-nl">2012-12</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
+													<strong>Middle Software Developer</strong> at <strong>Abee</strong>
+											</p>
+
+											<p>Website construction platform based on the WordPress engine.</p>
+
+												<p class="highlight">Implementing new websites on the WordPress platform.</p>
+												<p class="highlight">Building plugins based on good practices with the WordPress API.</p>
+												<p class="highlight">Creating a system that generates copies of subsequent pages with all elements (database, files, data).</p>
+												<p class="highlight">Creating a new interface with a simple website support in the form of a plugin.</p>
+
+
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2011</span> till <span class="no-nl">2012</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
+													<strong>Web Software Developer</strong> at <strong>ii4b</strong>
+											</p>
+
+											<p>An innovative company implementing solutions based on big data and facebook applications.</p>
+
+												<p class="highlight">Work on the concept of new products and applications produced by the company.</p>
+												<p class="highlight">Creating new websites related to company identification.</p>
+												<p class="highlight">Construction of new applications on the Facebook platform.</p>
+												<p class="highlight">Cooperation on a prototype using Kinect technology.</p>
+
+
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2010</span> till <span class="no-nl">2011</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
+													<strong>Middle Software Developer</strong> at <strong><a href="http://www.nteam.pl/" class="no-nl">nTeam</a></strong>
+											</p>
+
+											<p>A company that develops and develops websites for real estate offices using the proprietary CMS system that works with the largest systems on the market to store real estate offers.</p>
+
+												<p class="highlight">Construction of new websites for real estate offices with the use of proprietary CMS.</p>
+												<p class="highlight">Expansion of existing websites with new modules and requirements.</p>
+												<p class="highlight">Creating new modules to meet customer expectations.</p>
+
+
+								</div>
+							</div>
+						</section>
+								<section class="content work-content">
+							<div class="row small-fullwidth-row">
+								<div class="content-cat big-text">
+
+											<p><span class="no-nl">2010</span> till <span class="no-nl">2010</span></p>
+
+								</div>
+								<div class="content-text work-listing education-listing">
+											<p class="small-center">
+													<strong>Junior Software Developer</strong> at <strong>FitPlus</strong>
+											</p>
+
+											<p>Social Startup aggregating information about exercises performed with the tracking function of training plans.</p>
+
+												<p class="highlight">Creating a social website from scratch.</p>
+												<p class="highlight">Construction of the entire interface composed of many screens.</p>
+												<p class="highlight">UX tests on potential users.</p>
+
+
+								</div>
+							</div>
+						</section>
+
+
+								<section class="content">
+				        <div class="row">
+				          <div class="content-cat big-text">
+
+				            	<h3>Education</h3>
+
+				            		<p>2008 till <span class="no-nl">2013</span></p>
+
+				          </div>
+				          <div class="content-text work-listing education-listing">
+						            <p class="heading first-listing">West Pomeranian University of Technology</p>
+
+			            		<p class="highlight">
+												Engineering:
+			            		<i>Informatics</i>
+			            		</p>
+
+				          </div>
+				        </div>
+				      </section>
+
+				      <section class="content">
+				        <div class="row">
+				          <div class="content-cat big-text">
+				            	<h3>Awards</h3>
+
+				            	<p>Dige Ninja Contest</p>
+
+				            	<p style="margin-top:0.25em;">2013</p>
+
+				          </div>
+				          <div class="content-text work-listing">
+
+					         		<strong><p class="heading">Dige</p></strong>
+
+				            	<p class="highlight">The best graph visualization application using the d3.js library.</p>
+				          </div>
+				        </div>
+				      </section>
+				      <section class="content">
+				        <div class="row">
+				          <div class="content-cat big-text">
+
+				            	<p>The best computer game</p>
+
+				            	<p style="margin-top:0.25em;">2010</p>
+
+				          </div>
+				          <div class="content-text work-listing">
+
+					         		<strong><p class="heading">ZUT - Department of Multimedia</p></strong>
+
+				            	<p class="highlight">Second place for the best computer game. A game based on turn-based gameplay using 3D tank models.</p>
+				          </div>
+				        </div>
+				      </section>
+				      <section class="content">
+				        <div class="row">
+				          <div class="content-cat big-text">
+
+				            	<p>Startup Weekend Warsaw</p>
+
+				            	<p style="margin-top:0.25em;">2010</p>
+
+				          </div>
+				          <div class="content-text work-listing">
+
+					         		<strong><p class="heading">Startup Weekend</p></strong>
+
+				            	<p class="highlight">Second place for the project using Kinect technology in public advertising.</p>
+				          </div>
+				        </div>
+				      </section>
+
+
+
+
+
+
+			      <section class="content">
+			        <div class="row">
+			          <div class="content-cat">
+			            <h3>Skills</h3>
+			          </div>
+			          <div class="content-text skills-listing">
+			            	<p>
+			            	<span class="name">
+											<strong>
+											Frontend Development
+
+											</strong>
+			            	</span>
+
+		                	<span>(Master):</span>
+
+												Application architecture, React, HTML5, CSS, Less, JavaScript, jQuery
+			            	</p>
+			            	<p>
+			            	<span class="name">
+											<strong>
+											Backend Development
+
+											</strong>
+			            	</span>
+
+		                	<span>(Regular):</span>
+
+												PHP, Laravel, MySQL, Linux
+			            	</p>
+			            	<p>
+			            	<span class="name">
+											<strong>
+											Web Performance
+
+											</strong>
+			            	</span>
+
+		                	<span>(Senior):</span>
+
+												Website Speed, SEO, CDN
+			            	</p>
+			          </div>
+			        </div>
+			      </section>
+
+			      <section class="content">
+			        <div class="row">
+			          <div class="content-cat">
+			            <h3>Interests</h3>
+			          </div>
+			          <div class="content-text skills-listing">
+			            	<p>
+			            	<span class="name">
+											<strong>
+												Privately:
+											</strong>
+			            	</span>
+												New technologies, Efficiency and optimization of work, Xbox, bartending
+			            	</p>
+			          </div>
+			        </div>
+			      </section>
+		  	</div>
+		  </article>
+		</div>
+	</body>
+</html>

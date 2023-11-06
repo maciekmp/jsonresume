@@ -21,6 +21,11 @@
         "network": "Facebook",
         "username": "maciekmp",
         "url": "https://fb.me/maciekmp"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "maciekmp",
+        "url": "www.linkedin.com/in/maciejplusa"
       }
     ]
   },
@@ -102,7 +107,6 @@
         "Testy UX na potencjalnych użytkownikach."
       ]
     }
-
   ],
   "education": [
     {
@@ -176,7 +180,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Swobodna komunikacja, czytanie i pisanie dokumentacji."
+      "fluency": "Płynna komunikacja, czytanie i pisanie dokumentacji."
     }
   ],
   "interests": [
