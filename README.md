@@ -15,5 +15,5 @@ Steps to update:
 ## Blank Template
 Project is delivered with speciall template. To run it type in console:
 ```
-resume serve ./jsonresume-theme-blank/index.js
+resume serve
 ```
