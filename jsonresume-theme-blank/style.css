@@ -1,0 +1,30 @@
+body {
+  background: #fff;
+  font: 16px Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  margin: 50px 0;
+  margin-bottom: 100px;
+}
+
+#resume {
+  margin: 0 auto;
+	width: 900px;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+thead {
+	font-weight: bold;
+}
+tr td:first-of-type {
+	width: 200px;
+}
+td {
+  border: solid 1px #ccc;
+  padding: 8px;
+}

@@ -1,0 +1,47 @@
+{{#resume}}
+<table>
+	<thead>
+		<tr>
+			<td colspan="2">
+				LAST PROJECTS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PROJECT
+			</td>
+			<td>
+				DESCRIPTION
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each work}}
+		<tr>
+			<td>
+				<strong>
+					{{company}}
+				</strong>
+				<div>
+					{{position}}
+				</div>
+			</td>
+			<td>
+				<div>
+					<strong>
+						Description:
+					</strong>
+					{{summary}}
+				</div>
+				<div>
+					<strong>
+						Highlights:
+					</strong>
+					{{#each highlights}} {{this}} {{/each}}
+				</div>
+			</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+{{/resume}}
