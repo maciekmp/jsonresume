@@ -6,7 +6,7 @@
     "email": "maciekmp@gmail.com",
     "phone": "881 500 058",
     "website": "http://maciejplusa.com/",
-    "summary": "From an early age I am passionate about technology, I have been commercially programming for 8 years. I derive pleasure from effective work on internet applications. I use the latest technology and standards. In my spare time I am driving a hybrid car. Skill set: application architecture, react, html5, javascript, less",
+    "summary": "From an early age I am passionate about technology. I've been programming commercially for 8 years. I derive pleasure from effective work on internet applications. I use the latest technology and standards. In my spare time I am driving a hybrid car.",
     "location": {
       "city": "Szczecin",
       "countryCode": "PL"
@@ -26,6 +26,11 @@
         "network": "LinkedIn",
         "username": "maciekmp",
         "url": "www.linkedin.com/in/maciejplusa"
+      },
+      {
+        "network": "CodePen",
+        "username": "maciekmp",
+        "url": "https://codepen.io/maciekmp/"
       }
     ]
   },
@@ -50,10 +55,11 @@
       "endDate": "2017",
       "summary": "Tidio Chat is a solution based on the live chat platform for communication with clients. The innovative approach allowed to occupy a high position on the market of this type of messengers.",
       "highlights": [
-        "Work on each level of key elements when creating a new project.",
+        "Responsibility and work on every key element of a new project.",
         "Building from scratch a new version of the panel for operators using new technologies.",
         "Working with a widget loaded on hundreds of thousands of pages. The use of new architecture and optimization in all available ways.",
-        "Construction and development of new functions."
+        "Construction and development of new functions.",
+        "Everyday work using the SCRUM methodology."
       ]
     },
     {
@@ -127,7 +133,7 @@
     {
       "title": "Dige Ninja Contest",
       "date": "2013",
-      "awarder": "Dige",
+      "awarder": "Dike",
       "summary": "The best graph visualization application using the d3.js library."
     },
     {
@@ -154,7 +160,8 @@
         "CSS",
         "Less",
         "JavaScript",
-        "jQuery"
+        "jQuery",
+        "Webpack"
       ]
     },
     {
@@ -164,6 +171,7 @@
         "PHP",
         "Laravel",
         "MySQL",
+        "MongoDB",
         "Linux"
       ]
     },
@@ -174,6 +182,26 @@
         "Website Speed",
         "SEO",
         "CDN"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "keywords": [
+        "Work organization focusing on process optimization",
+        "Running projects and teams at medium scale",
+        "Making development decisions, managing resources",
+        "Recruitment and evaluation of employees"
+      ]
+    },
+    {
+      "name": "General Tools",
+      "keywords": [
+        "JetBrains IDE software",
+        "Google Chrome Developer Tools",
+        "Vagrant",
+        "Go",
+        "Konsola Linux",
+        "Apache/Nginx"
       ]
     }
   ],

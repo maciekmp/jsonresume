@@ -6,7 +6,7 @@
     "email": "maciekmp@gmail.com",
     "phone": "881 500 058",
     "website": "http://maciejplusa.com/",
-    "summary": "Od najmłodszych lat jestem pasjonatem technologii, programuję komercyjnie od 8 lat. Czerpię przyjemność z efektywnej pracy przy aplikacjach internetowych. Wykorzystuję najnowszą technologię i standardy. W wolnych chwilach jężdżę autem hybrydowym. Skill set: architektura aplikacji, react, html5, javascript, less",
+    "summary": "Od najmłodszych lat jestem pasjonatem technologii. Programuję komercyjnie od 8 lat. Czerpię przyjemność z efektywnej pracy przy aplikacjach internetowych. Wykorzystuję najnowszą technologię i standardy. W wolnych chwilach jężdżę autem hybrydowym.",
     "location": {
       "city": "Szczecin",
       "countryCode": "PL"
@@ -26,6 +26,11 @@
         "network": "LinkedIn",
         "username": "maciekmp",
         "url": "www.linkedin.com/in/maciejplusa"
+      },
+      {
+        "network": "CodePen",
+        "username": "maciekmp",
+        "url": "https://codepen.io/maciekmp/"
       }
     ]
   },
@@ -50,10 +55,11 @@
       "endDate": "2017",
       "summary": "Tidio Chat jest rozwiązaniem bazującym na platformie live chat do komunikacji z klientami. Innowacyjne podejście pozwoliło na zajęcie wysokiej pozycji na rynku komunikatorów tego typu.",
       "highlights": [
-        "Praca na każdym poziomie kluczowych elementów podczas tworzenia nowego projektu.",
+        "Odpowiedzialność i praca przy każdym kluczowym elemencie nowego projektu.",
         "Budowa od podstaw nowej wersji panelu dla operatorów przy wykorzystaniu nowych technologii.",
         "Praca przy widgecie ładowanym na setkach tysięcy stron. Wykorzystanie nowej architektury i optymalizacji na wszelkie dostępne sposoby.",
-        "Budowa i rozwój nowych funkcji."
+        "Budowa i rozwój nowych funkcji.",
+        "Codzienna praca z wykorzystaniem metodologii SCRUM."
       ]
     },
     {
@@ -154,7 +160,8 @@
         "CSS",
         "Less",
         "JavaScript",
-        "jQuery"
+        "jQuery",
+        "Webpack"
       ]
     },
     {
@@ -164,6 +171,7 @@
         "PHP",
         "Laravel",
         "MySQL",
+        "MongoDB",
         "Linux"
       ]
     },
@@ -174,6 +182,26 @@
         "Website Speed",
         "SEO",
         "CDN"
+      ]
+    },
+    {
+      "name": "Umiejętności miękke",
+      "keywords": [
+        "Organizacja pracy stawiająca na optymalizację procesów",
+        "Prowadzenie projektów i zespołów w średniej skalii",
+        "Podejmowanie decyzji rozwojowych, zarządzanie zasobami",
+        "Rekrutacja i ocena pracowników"
+      ]
+    },
+    {
+      "name": "General Tools",
+      "keywords": [
+        "Oprogramowanie JetBrains IDE",
+        "Google Chrome Developer Tools",
+        "Vagrant",
+        "Git",
+        "Konsola Linux",
+        "Apache/Nginx"
       ]
     }
   ],
