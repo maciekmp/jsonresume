@@ -1,14 +1,13 @@
 {
   "basics": {
     "name": "Maciej Płusa",
-    "label": "Programmer",
-    "picture": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19905285_10203674002168122_1630096878171382330_n.jpg?oh=e28bde35277d4599f3070af4ca2c3250&oe=5ADE59C9",
+    "label": "Tech Lead",
     "email": "maciekmp@gmail.com",
-    "phone": "881 500 058",
-    "website": "http://maciejplusa.com/",
-    "summary": "From an early age I am passionate about technology. I've been programming commercially for 8 years. I derive pleasure from effective work on internet applications. I use the latest technology and standards. In my spare time I am driving a hybrid car.",
+    "phone": "+48 881 500 058",
+    "url": "https://maciejplusa.com/",
+    "summary": "A tech lead with over a decade of web development experience, driven by a passion for technology and innovation. I have been programming commercially since 2010, delivering high-quality software solutions and leading successful projects. My expertise includes creating scalable and user-friendly web applications using the latest industry standards. I excel in managing cross-functional teams, optimizing workflows, and fostering collaboration. My technical skills, combined with strong leadership and communication abilities, enable me to navigate complex challenges and deliver exceptional results. In my free time, I explore new technologies, drive my electric car, and enjoy mixology.",
     "location": {
-      "city": "Szczecin",
+      "city": "Goleniów (near Szczecin)",
       "countryCode": "PL"
     },
     "profiles": [
@@ -36,112 +35,164 @@
   },
   "work": [
     {
-      "company": "Intive SA",
+      "name": "Unikie Oy",
+      "location": "Szczecin, Poland/Tampere, Finland",
+      "position": "Software Developer, Project Manager, Tech Lead",
+      "website": "https://www.unikie.com/",
+      "startDate": "2021-06-01",
+      "summary": "Unikie is a global software engineering and innovation company that infuses intelligence into machines, vehicles, and industrial solutions.",
+      "highlights": [
+        "Contributed to an eCommerce project for major grocery chains, enhancing various processes and technologies.",
+        "Participated in numerous company initiatives, leading retrospectives, and organizing meetings.",
+        "Acted as interim project manager for an internal project with a team in Finland.",
+        "Worked on a global project for managing large industrial facilities.",
+        "Developed software in compliance with industrial standards.",
+        "Created and improved end-to-end tests using Robot Framework."
+      ]
+    },
+    {
+      "name": "PQ Studio",
+      "location": "Szczecin, Poland",
+      "position": "Senior Software Developer, Head of Szczecin Branch",
+      "website": "https://www.pqstudio.co/",
+      "startDate": "2018-09-18",
+      "endDate": "2021-08-31",
+      "summary": "Polish Software House specializing in React technology, bringing together experts to work on relevant and interesting projects.",
+      "highlights": [
+        "Worked on projects including an educational website for young investors, fleet management, and electric car charger management.",
+        "Managed a local office and recruited employees.",
+        "Collaborated with the London branch on new feature implementation.",
+        "Participated in research projects at the University of Gorzów Wielkopolski."
+      ]
+    },
+    {
+      "name": "Intive S.A.",
+      "location": "Szczecin, Poland",
       "position": "Senior Software Developer",
       "website": "https://www.intive.com/",
       "startDate": "2018-03-01",
       "endDate": "2018-09-07",
-      "summary": "A global company employing over 1,500 employees. Cooperating with the world's largest brands.",
+      "summary": "Global company employing over 1,500 people, collaborating with the world's largest brands.",
       "highlights": [
-        "Work on multi-platform projects for the Discovery Channel.",
-        "The development of applications based on the latest technologies.",
-        "Cooperation with the London branch when introducing new functions.",
-        "Optimization of the platform and its architecture."
+        "Worked on multiple platform projects for Discovery Channel.",
+        "Developed applications based on the latest technologies.",
+        "Collaborated with the London branch on new feature implementation.",
+        "Optimized platform and its architecture."
       ]
     },
     {
-      "company": "Infoshare Academy",
-      "position": "Content coach and tutor",
+      "name": "Infoshare Academy",
+      "location": "Szczecin, Poland",
+      "position": "Content Trainer and Course Supervisor",
       "website": "https://infoshareacademy.com/",
       "startDate": "2017-12-01",
-      "endDate": "2018-07-15",
-      "summary": "One of the largest companies organizing training in Szczecin. Courses in various fields focus around practical classes.",
+      "endDate": "2021-09-30",
+      "summary": "One of the largest companies organizing trainings in Szczecin, offering practical courses in various fields.",
       "highlights": [
-        "Work as a substantive expert on selected topics from the course.",
-        "Preparing presentations and exercises for classes.",
-        "Care of the course. Work organization, task verification.",
-        "Project manager and tech lead."
+        "Worked as a content expert on selected course topics.",
+        "Prepared presentations and exercises for classes.",
+        "Supervised the course, organized work, and verified tasks.",
+        "Acted as project manager and tech lead."
       ]
     },
     {
-      "company": "Tidio",
+      "name": "Tidio Chat",
+      "location": "Szczecin, Poland",
       "position": "Senior Software Developer / Fullstack",
       "website": "https://www.tidiochat.com/",
-      "startDate": "2013",
-      "endDate": "2017",
-      "summary": "Tidio Chat is a solution based on the live chat platform for communication with clients. The innovative approach allowed to occupy a high position on the market of this type of messengers.",
+      "startDate": "2013-07",
+      "endDate": "2017-12",
+      "summary": "Chat platform for customer communication, with an innovative approach securing a strong market position.",
       "highlights": [
-        "Responsibility and work on every key element of a new project.",
-        "Building from scratch a new version of the panel for operators using new technologies.",
-        "Work with a widget loaded on hundreds of thousands of pages. The use of new architecture and optimization in all available ways.",
-        "Construction and development of new functions.",
-        "Everyday work using the SCRUM methodology."
+        "Responsible for and worked on every key element of a new project.",
+        "Built a new version of the operator panel using new technologies.",
+        "Worked on a widget loaded on hundreds of thousands of pages, optimizing architecture in every possible way.",
+        "Rewrote chat widget from jQuery to React and cut its size in half.",
+        "Developed and expanded new features.",
+        "Worked daily using SCRUM methodology."
       ]
     },
     {
-      "company": "Abee",
+      "name": "Abee",
+      "location": "Gliwice, Poland",
       "position": "Middle Software Developer",
       "startDate": "2012-01",
       "endDate": "2012-12",
-      "summary": "Website construction platform based on the WordPress engine.",
+      "summary": "Platform for building websites based on the WordPress engine.",
       "highlights": [
-        "Implementing new websites on the WordPress platform.",
-        "Building plugins based on good practices with the WordPress API.",
-        "Creating a system that generates copies of subsequent pages with all elements (database, files, data).",
-        "Creating a new interface with a simple website support in the form of a plugin."
+        "Implemented new websites on the WordPress platform.",
+        "Built plugins following WordPress API best practices.",
+        "Created a system to generate copies of subsequent websites with all elements (database, files, data).",
+        "Developed a new interface with simple website management as a plugin."
       ]
     },
     {
-      "company": "ii4b",
+      "name": "ii4b",
+      "location": "Warsaw, Poland",
       "position": "Web Software Developer",
-      "startDate": "2011",
-      "endDate": "2012",
-      "summary": "An innovative company implementing solutions based on big data and facebook applications.",
+      "startDate": "2011-07",
+      "endDate": "2012-07",
+      "summary": "Innovative company implementing solutions based on big data and Facebook applications.",
       "highlights": [
-        "Work on the concept of new products and applications produced by the company.",
-        "Creating new websites related to company identification.",
-        "Construction of new applications on the Facebook platform.",
-        "Cooperation on a prototype using Kinect technology."
+        "Worked on new product concepts and applications developed by the company.",
+        "Created new websites related to the company's identity.",
+        "Built new applications on the Facebook platform.",
+        "Collaborated on a prototype using Kinect technology."
       ]
     },
     {
-      "company": "nTeam",
+      "name": "nTeam",
+      "location": "Szczecin, Poland",
       "position": "Middle Software Developer",
       "website": "http://www.nteam.pl/",
-      "startDate": "2010",
-      "endDate": "2011",
-      "summary": "A company that develops and develops websites for real estate offices using the proprietary CMS system that works with the largest systems on the market to store real estate offers.",
+      "startDate": "2010-09",
+      "endDate": "2011-09",
+      "summary": "Company developing and maintaining websites for real estate offices using a proprietary CMS integrated with the largest real estate systems on the market.",
       "highlights": [
-        "Construction of new websites for real estate offices with the use of proprietary CMS.",
-        "Expansion of existing websites with new modules and requirements.",
-        "Creating new modules to meet customer expectations."
+        "Built new websites for real estate offices using a proprietary CMS.",
+        "Expanded existing websites with new modules and requirements.",
+        "Created new modules to meet customer expectations."
       ]
     },
     {
-      "company": "FitPlus",
+      "name": "FitPlus as part of the Startup School Accelerator",
+      "location": "Warsaw, Poland",
       "position": "Junior Software Developer",
-      "startDate": "2010",
-      "endDate": "2010",
-      "summary": "Social Startup aggregating information about exercises performed with the tracking function of training plans.",
+      "startDate": "2010-07",
+      "endDate": "2010-12",
+      "summary": "Participated in a team selected among many to create a social network service aggregating exercise information with a training plan tracking feature.",
       "highlights": [
-        "Creating a social website from scratch.",
-        "Construction of the entire interface composed of many screens.",
-        "UX tests on potential users."
+        "Developed the social network service from scratch.",
+        "Built the entire interface consisting of multiple screens.",
+        "Conducted UX tests with potential users."
       ]
     }
   ],
   "education": [
     {
+      "institution": "West Pomeranian Business School",
+      "area": "IT Project Management",
+      "studyType": "Master's",
+      "startDate": "2022",
+      "endDate": "2024",
+      "courses": [
+        "Team Communication",
+        "Risk Management",
+        "Information Systems Design",
+        "Operational Management"
+      ]
+    },
+    {
       "institution": "West Pomeranian University of Technology",
-      "area": "Informatics",
-      "studyType": "Engineering",
+      "area": "Computer Science",
+      "studyType": "Bachelor's",
       "startDate": "2008",
       "endDate": "2013",
       "courses": [
-        "Programming in C",
-        "Programming in C ++",
+        "C Programming",
+        "C++ Programming",
         "Computer Graphics",
-        "Image processing"
+        "Image Processing"
       ]
     }
   ],
@@ -149,92 +200,114 @@
     {
       "title": "Dige Ninja Contest",
       "date": "2013",
-      "awarder": "Dike",
-      "summary": "The best graph visualization application using the d3.js library."
+      "awarder": "Dige",
+      "summary": "Best application for graph visualization using the d3.js library."
     },
     {
-      "title": "The best computer game",
+      "title": "Second place among all games in the second year of studies",
       "date": "2010",
-      "awarder": "ZUT - Department of Multimedia",
-      "summary": "Second place for the best computer game. A game based on turn-based gameplay using 3D tank models."
+      "awarder": "ZUT - Multimedia Department",
+      "summary": "Turn-based game using 3D tank models."
     },
     {
       "title": "Startup Weekend Warsaw",
       "date": "2010",
       "awarder": "Startup Weekend",
-      "summary": "Second place for the project using Kinect technology in public advertising."
+      "summary": "Second place for a project using Kinect technology in public advertising."
     }
   ],
   "skills": [
     {
-      "name": "Frontend Development",
-      "level": "Master",
+      "name": "Frontend",
+      "level": "Expert",
       "keywords": [
-        "Application architecture",
         "React",
-        "HTML5",
-        "CSS",
-        "Less",
+        "Next.js",
         "JavaScript",
-        "jQuery",
         "Webpack"
       ]
     },
     {
-      "name": "Backend Development",
-      "level": "Regular",
+      "name": "Backend",
+      "level": "Advanced",
       "keywords": [
-        "PHP",
+        "Node.js",
         "Laravel",
-        "MySQL",
-        "MongoDB",
-        "Linux"
+        "SQL",
+        "NoSQL",
+        "Linux",
+        "Firebase"
       ]
     },
     {
-      "name": "Web Performance",
-      "level": "Senior",
+      "name": "General",
+      "level": "Expert",
       "keywords": [
-        "Website Speed",
+        "Architecture",
+        "Performance",
         "SEO",
-        "CDN"
+        "Unit Testing",
+        "E2E Testing"
       ]
     },
     {
-      "name": "Soft skills",
+      "name": "Soft Skills",
       "keywords": [
-        "Work organization focusing on process optimization",
-        "Running projects and teams at medium scale",
-        "Making development decisions, managing resources",
-        "Recruitment and evaluation of employees"
-      ]
-    },
-    {
-      "name": "General Tools",
-      "keywords": [
-        "JetBrains IDE software",
-        "Google Chrome Developer Tools",
-        "Vagrant",
-        "Go",
-        "Linux console",
-        "Apache/Nginx"
+        "Process Optimization",
+        "Project Management",
+        "Team Leadership",
+        "Communication",
+        "Resource Management",
+        "Recruitment",
+        "Employee Evaluation"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Smooth communication, reading and writing documentation."
+      "fluency": "Proficient in communication, reading, and writing technical documentation."
+    },
+    {
+      "language": "Polish",
+      "fluency": "Excellent command of all aspects of the language."
     }
   ],
   "interests": [
     {
-      "name": "Privately",
+      "name": "Self-Development",
       "keywords": [
-        "New technologies",
-        "Efficiency and optimization of work",
-        "Xbox",
-        "bartending"
+        "Continuous Learning",
+        "Professional Growth"
+      ]
+    },
+    {
+      "name": "New Technologies",
+      "keywords": [
+        "Browser Apps",
+        "Machine Learning",
+        "Computer Graphics"
+      ]
+    },
+    {
+      "name": "Electric Cars",
+      "keywords": [
+        "Sustainable Transportation",
+        "Automotive Innovation"
+      ]
+    },
+    {
+      "name": "3D Printing",
+      "keywords": [
+        "Additive Manufacturing",
+        "Prototyping"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Game Development",
+        "Interactive Media"
       ]
     }
   ]
